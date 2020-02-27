@@ -1,0 +1,6 @@
+; print the larger of two numbers
+(begin
+  (define a 1)
+  (define b 2)
+  (if (< a b) b a)
+)
